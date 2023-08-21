@@ -1,0 +1,184 @@
+@font-face {
+    font-family: 'fonteh1';
+    src: url(fontes/Game\ Of\ Squids.ttf);
+    font-weight: normal;   
+}
+@font-face {
+    font-family: 'bad';
+    src: url(fontes/bad.ttf);
+    font-weight: normal;
+    font-size: normal;
+}
+body{
+    /*background-color: rgb(175, 175, 175);*/
+    background-image: url(imagens/stars.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: justify;
+    margin: 0;
+    max-width: 100%;
+    position: relative;
+}
+main{
+    background-color: whitesmoke;
+    text-align: justify;
+    padding: 5px 15px;
+    min-width: 330px;
+    max-width: 1100px;
+    margin: auto;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+header  {
+    background-color: rgb(26, 26, 26);
+    position: sticky;
+    top: 0;
+    margin: auto;
+    
+}
+#logo{
+    text-align: center;
+    color: #ff2600;
+    margin-top: 0%;
+    padding-top: 5px;   
+    font-family: 'fonteh1';
+    margin-bottom: 0px;
+    
+}
+
+header> nav{
+    background-color: rgb(26, 26, 26);
+    text-align: left;
+    padding: 0;
+    background-image: linear-gradient(to right, #ff2600, transparent);
+    border-radius: 5px;
+}
+
+nav > a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Cambria, Cochin, Georgia, Times, 'Times New Roman', serif';
+    color: white;
+    font-weight: normal;
+    margin-right: 20px;
+    transition-duration: 0.3s;
+
+}
+
+nav > a:hover{
+    background-color: rgb(26, 26, 26);
+    border-radius: 10px;
+    padding: 5px;
+    color: #ff2600;
+    text-decoration: overline;
+}
+section > h1, h2, h3{
+    color: #ff2600;
+}
+
+.video{
+    border-radius: 10px;
+    max-width: 100%;
+}
+footer{
+    background-color: rgb(26, 26, 26);
+    height: 115px;
+    max-width: 100%;
+    bottom: 0;
+    padding-bottom: 4px;
+}
+.icone{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+.icone2{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+.icone3{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+.copy{
+    text-align: center;
+    padding-top: 47px;
+    color: #ff2600;
+}
+.links-footer{
+    display: flex;
+    padding-top: 5px;
+    padding-left: 15px;
+}
+.links-footer > a{
+    margin-right: 50px;
+}
+.links-footer > a:hover{
+    background-color: #ff2600;
+    border-radius: 30px;
+}
+.imagens{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.imagem1{
+    transition: transform 0.3s;
+    max-width: 100%;
+    margin: 20px;
+}
+.imagem1:hover{
+    transform:  scale(1.2);
+}
+.tamanho-video{
+    display: flex;
+    justify-content: center;
+}
+
+.roda > h3{
+    text-align: center;
+}
+.pre-down > h2{
+    text-align: center;
+}
+.principal > h1{
+    text-align: center;
+}
+.capa-starfield{
+    max-width: 100%;
+    padding-top: 10px;
+    transition: transform 0.3s;
+}
+.capa-starfield:hover{
+    transform: scale(1.1);
+    background-color: #ff2600;
+    
+}
+.starfieldcapa-main{
+    display: flex;
+    align-items: center;
+}
+.starfieldcapa-main > h3{
+    max-width: 100%;
+}
+.starfieldcapa-main > p{
+    margin-left: -20%;
+    margin-top: -3%;
+}
+.link-star{
+    margin-bottom: 10%;
+    margin-left: 10px;
+    max-width: 100%;
+}
+.link-star:hover > h3{
+    text-shadow: 1px  1px 2px #00000080;
+    color: #be1d00;
+    text-decoration: overline;
+}
+main strong{
+    color: #ff2600;
+}
