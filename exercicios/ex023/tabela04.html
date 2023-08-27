@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicios de tabelas</h1>
+    <table>
+        <caption>
+            Filmes Favoritos
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupos</th>
+                <th scope="col">Nomes</th>
+                <th scope="colgroup" colspan="3">Filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="rowgroup" rowspan="3">Mulheres</th>
+                <td>Ana</td>
+                <td>Hulk</td>
+                <td>Wall-e</td>
+                <td>Vingadores</td>
+            </tr>
+            <tr>
+                <td>Marcia</td>
+                <td>Interstellar</td>
+                <td>Noiva Cadaver</td>
+                <td>Rambo</td>
+            </tr>
+            <tr>
+                <td>Beatriz</td>
+                <td>Piratas do caribe</td>
+                <td>Vidro</td>
+                <td>Corpo Fechado</td>
+            </tr>
+            <tr>
+                <th scope="rowgroup" rowspan="3">Homens</th>
+                <td>Kaio</td>
+                <td>Carga Explosivaa</td>
+                <td>Titanic</td>
+                <td>Duro de matar</td>
+            </tr>
+            <tr>
+                <td>Mario</td>
+                <td>Super Mario</td>
+                <td>O Poço</td>
+                <td>King Kong</td>
+            </tr>
+            <tr>
+                <td>Humberto</td>
+                <td>Shrek</td>
+                <td>Pânico</td>
+                <td>Chuck</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="4" scope="row">Total</th>
+                <td>1000</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

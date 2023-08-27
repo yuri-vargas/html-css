@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Exercicio de tabelas</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 300px;
+            
+        }
+
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            background-color: rgb(37, 37, 37);          
+            color: wheat;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        .cnome{
+            background-color: rgb(170, 170, 170);
+        }
+        .csexo{
+            background-color: rgb(87, 87, 87);
+        }
+        .cidade{
+            background-color: rgb(170, 170, 170);
+        }
+        .cprof{
+            background-color: rgb(87, 87, 87);
+        }
+    </style>
+</head>
+<body>  
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana</td>
+            <td>F</td>
+            <td>22</td>
+            <td>Designer</td>
+        </tr>
+        <tr>
+            <td>Mario</td>
+            <td>M</td>
+            <td>28</td>
+            <td>Eletrecista</td>
+        </tr>
+        <tr>
+            <td>Lucia</td>
+            <td>F</td>
+            <td>35</td>
+            <td>Faxineira</td>
+        </tr>
+        <tr>
+            <td>Karol</td>
+            <td>F</td>
+            <td>31</td>
+            <td>Cocozinho</td>
+        </tr>
+        <tr>
+            <td>Serjão</td>
+            <td>M</td>
+            <td>54</td>
+            <td>Traficante</td>
+        </tr>
+    </table>
+</body>
+</html>
