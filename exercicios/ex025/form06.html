@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Teste de formulario</h1>
+    <form action="cadastro.php" method="post"> <!--QUANDO FOR ENVIAR ARQUIVOS TEM Q SER O POST-->
+        <div>
+            <label for="icor">Cor</label>
+            <input type="color" name="" id="">
+        </div>
+
+        <div>
+            <label for="inivel">Nível de satisfação:</label>
+            <input type="range" name="nivel" id="inivel" min="0" max="10">
+        </div>
+        
+        <div>
+            <label for="ifoto">Foto</label>
+            <input type="file" name="foto" id="ifoto">
+        </div>
+
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Apagar">    
+        </div>
+    </form>
+</body>
+</html>
