@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+    <title>Media Query</title>
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <h1>Meu site</h1>
+        <p id="mostrar-menu" href="" onclick="clickMenu()">▼</p>
+        <nav id="opcao" >
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>           
+        </nav>
+    </header>
+    
+    <main>
+        <h2>Testando Media Queries</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium iste obcaecati tempore facilis temporibus iusto a repellendus tenetur fuga dolor vero, libero, asperiores quisquam, beatae harum quaerat adipisci ea labore. Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br><br>Reprehenderit, veniam magnam eligendi ab velit neque eius reiciendis a, rerum ea quis perferendis nostrum, officiis dolores earum. Molestiae vitae laudantium velit.</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere quia blanditiis eaque voluptas labore? Repudiandae ipsum quo eos unde numquam. Perferendis sapiente hic voluptates qui possimus quis ducimus suscipit similique!</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, praesentium amet! Voluptatem facere ipsum, consectetur possimus enim cum nam optio ut, quasi sint corrupti ratione sit, ipsa tenetur officiis ea. <br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus voluptate, fugit ipsa autem temporibus ut, dolore voluptatem quos, perspiciatis nobis a nemo incidunt aliquam quaerat velit eveniet excepturi. Porro, rem.</p>
+    </main>
+    <script>
+
+        function mudouTamanho(){
+            if (window.innerWidth >= 768){
+                opcao.style.display = 'block'
+            }else{
+                opcao.style.display = 'none'
+            }
+        }
+
+        function clickMenu(){
+            if (opcao.style.display == 'block'){
+                opcao.style.display = 'none'
+            } else{
+                opcao.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+/* Versão Mobile Fisrt */
+
+*{
+    margin: 0;
+    padding: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+body{
+    background-color: rgb(209, 209, 209);
+}
+
+header{
+    background-color: gray;
+}
+
+header h1{
+    text-align: center;
+    color: wheat;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.781);
+    padding-bottom: 20px;
+}
+
+#mostrar-menu{
+    background-color: rgb(58, 58, 58);
+    color: white;
+    cursor: pointer;
+
+    padding: 10px;
+
+    text-align: center;
+}
+
+#mostrar-menu:hover{
+    background-color: wheat;
+    color: black;
+}
+
+nav{
+    background-color: rgb(58, 58, 58);
+}
+
+#opcao{
+    display: none;
+}
+nav > ul > li > a{
+    display: block;
+    padding: 5px;
+
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: wheat;
+}
+
+nav > ul > li > a:hover{
+    background-color: gray;
+}
+
+main{
+    background-color: white;
+
+    width: 90vw;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+
+    border-radius: 15px;
+}
+main h2{
+    text-align: center;
+    margin: 10px;
+}
